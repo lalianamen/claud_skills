@@ -81,3 +81,12 @@ runners fall back to Claude.
 | Skill | What it does | Простой запрос |
 |---|---|---|
 | `/arena` | Runs 2+ subagents on the same task in parallel, a separate judge scores them, then merges the best parts into one result | `/arena напиши 3 варианта заголовка и подзаголовка для главной licena.us` |
+
+## claude-code-setup (Anthropic, v1.0.0, Apache-2.0)
+Copied from https://github.com/anthropics/claude-plugins-official/tree/main/plugins/claude-code-setup
+(commit 41f619d, license: `.claude/skills/claude-automation-recommender/LICENSE`). The plugin holds one skill.
+Read-only: it scans a project and recommends, it does not change files.
+
+| Skill | What it does | Простой запрос |
+|---|---|---|
+| `/claude-automation-recommender` | Scans a project and recommends the top 1-2 Claude Code automations per type: hooks, skills, subagents, plugins, MCP servers | `/claude-automation-recommender посоветуй автоматизации Claude Code для репозитория LLICENA` |
