@@ -16,3 +16,10 @@ Copied from https://github.com/anthropics/knowledge-work-plugins/tree/main/marke
 | `/seo-audit` | Keyword, on-page, technical and competitor SEO audit |
 | `/performance-report` | Marketing performance report with recommendations |
 | `/brand-review` | Check copy against brand voice and flag risky claims |
+
+## stop-slop (Hardik Pandya, MIT)
+Copied from https://github.com/hardikpandya/stop-slop (license: `.claude/skills/stop-slop/LICENSE`).
+
+| Skill | What it does |
+|---|---|
+| `/stop-slop` | Strip AI writing patterns (filler phrases, formulaic structures, passive voice) from prose |
