@@ -24,3 +24,13 @@ Copied from https://github.com/hardikpandya/stop-slop (license: `.claude/skills/
 | Skill | What it does | Простой запрос |
 |---|---|---|
 | `/stop-slop` | Strip AI writing patterns (filler phrases, formulaic structures, passive voice) from prose | `/stop-slop перепиши, чтобы не звучало как ИИ: …текст…` |
+
+## ui-ux-pro-max (Next Level Builder, MIT)
+Copied from https://github.com/nextlevelbuilder/ui-ux-pro-max-skill (commit 28b3b8d,
+license: `.claude/skills/ui-ux-pro-max/LICENSE`). Left out: `scripts/tests`. Changed: script
+path in `SKILL.md` from `${CLAUDE_PLUGIN_ROOT}/.claude/...` to `.claude/...` (project install).
+Needs Python 3 for its search script.
+
+| Skill | What it does | Простой запрос |
+|---|---|---|
+| `/ui-ux-pro-max` | UI/UX guidance: styles, palettes, fonts, UX rules, accessibility, per-stack tips | `/ui-ux-pro-max подбери стиль, цвета и шрифты для сайта HVAC-компании в Лос-Анджелесе` |
