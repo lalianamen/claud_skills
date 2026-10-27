@@ -34,3 +34,26 @@ Needs Python 3 for its search script.
 | Skill | What it does | Простой запрос |
 |---|---|---|
 | `/ui-ux-pro-max` | UI/UX guidance: styles, palettes, fonts, UX rules, accessibility, per-stack tips | `/ui-ux-pro-max подбери стиль, цвета и шрифты для сайта HVAC-компании в Лос-Анджелесе` |
+
+## remotion (Remotion, v4.0.539)
+Copied from https://github.com/remotion-dev/skills (commit 30d4553), same files `npx skills add
+remotion-dev/skills` installs. The skills repo has no license file of its own; it is part of the
+Remotion monorepo under the Remotion License (https://github.com/remotion-dev/remotion/blob/main/LICENSE.md):
+Remotion itself is free for individuals and for-profit companies with up to 3 employees, larger
+companies need a company license. Skills write and run a Remotion (React) video project; they need
+Node.js, and `/remotion-render` needs the machine to render video.
+
+| Skill | What it does | Простой запрос |
+|---|---|---|
+| `/remotion-best-practices` | Router: picks the right Remotion skill when unsure | `/remotion-best-practices сделай 15-секундное видео про бесплатный пример C-20 HVAC` |
+| `/remotion-create` | New Remotion project or video | `/remotion-create промо-ролик 20 секунд для licena.us, вертикальный 9:16` |
+| `/remotion-markup` | Animation, layout, text, audio, effects in the video code | `/remotion-markup добавь анимированный заголовок "Get your HVAC license"` |
+| `/remotion-studio` | Opens a live preview of the video | `/remotion-studio` |
+| `/remotion-render` | Exports the finished MP4 or a still image | `/remotion-render сохрани видео в MP4 1080x1920` |
+| `/remotion-captions` | Transcribes speech and adds animated subtitles | `/remotion-captions сделай субтитры на английском к моему видео` |
+| `/remotion-maps` | Animated maps, routes, markers | `/remotion-maps карта Лос-Анджелеса с зонами, где я работаю` |
+| `/remotion-multimedia` | Trim, crop, read metadata of video files | `/remotion-multimedia обрежь видео до первых 30 секунд` |
+| `/remotion-interactivity` | Makes video values editable in Studio | `/remotion-interactivity сделай цену и текст редактируемыми в Studio` |
+| `/remotion-saas` | Builds an app that generates videos | `/remotion-saas приложение, которое делает видео-отзыв из текста клиента` |
+| `/remotion-docs` | Searches Remotion documentation | `/remotion-docs как добавить фоновую музыку` |
+| `/remotion-upgrade` | Updates Remotion packages in a project | `/remotion-upgrade обнови Remotion до последней версии` |
