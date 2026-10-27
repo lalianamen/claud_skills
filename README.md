@@ -57,3 +57,13 @@ Node.js, and `/remotion-render` needs the machine to render video.
 | `/remotion-saas` | Builds an app that generates videos | `/remotion-saas приложение, которое делает видео-отзыв из текста клиента` |
 | `/remotion-docs` | Searches Remotion documentation | `/remotion-docs как добавить фоновую музыку` |
 | `/remotion-upgrade` | Updates Remotion packages in a project | `/remotion-upgrade обнови Remotion до последней версии` |
+
+## find-skills (Vercel, MIT)
+Copied from https://github.com/vercel-labs/skills/tree/main/skills/find-skills (commit 533c7df,
+license: `.claude/skills/find-skills/LICENSE`). Uses the `npx skills` CLI (needs Node.js) and the
+https://skills.sh catalog. Its step 6 installs with `-g -y` (global, no confirmation): ask Claude to
+show the skill and install it into this repo instead.
+
+| Skill | What it does | Простой запрос |
+|---|---|---|
+| `/find-skills` | Searches the skills.sh catalog for a skill that fits a task, checks installs and source, shows the install command | `/find-skills найди скилл для Google Business Profile и отзывов` |
