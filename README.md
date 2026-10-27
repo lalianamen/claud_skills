@@ -67,3 +67,17 @@ show the skill and install it into this repo instead.
 | Skill | What it does | Простой запрос |
 |---|---|---|
 | `/find-skills` | Searches the skills.sh catalog for a skill that fits a task, checks installs and source, shows the install command | `/find-skills найди скилл для Google Business Profile и отзывов` |
+
+## arena (pstack by Cursor, MIT)
+Copied from https://github.com/backnotprop/pstack (standalone mirror of
+https://github.com/cursor/plugins/tree/main/pstack, commit f51fdeb, license: `.claude/skills/arena/LICENSE`).
+Also copied the four short principle skills arena points to: `principle-separate-before-serializing-shared-state`,
+`principle-redesign-from-first-principles`, `principle-laziness-protocol`, `principle-prove-it-works`.
+Left out: `poteto-mode` (a whole working persona; arena only cites it for picking subagent effort).
+Arena runs only when called as `/arena`. It starts several subagents, so one run costs several times
+the tokens of doing the task once. Its default runner list names Grok models; in Claude Code all
+runners fall back to Claude.
+
+| Skill | What it does | Простой запрос |
+|---|---|---|
+| `/arena` | Runs 2+ subagents on the same task in parallel, a separate judge scores them, then merges the best parts into one result | `/arena напиши 3 варианта заголовка и подзаголовка для главной licena.us` |
