@@ -90,3 +90,12 @@ Read-only: it scans a project and recommends, it does not change files.
 | Skill | What it does | Простой запрос |
 |---|---|---|
 | `/claude-automation-recommender` | Scans a project and recommends the top 1-2 Claude Code automations per type: hooks, skills, subagents, plugins, MCP servers | `/claude-automation-recommender посоветуй автоматизации Claude Code для репозитория LLICENA` |
+
+## openreel (written here; app by Augani, MIT)
+Our own setup and usage guide for OpenReel Video (https://github.com/Augani/openreel-video), based
+on its docs/AGENT-GUIDE.md. OpenReel has no skill of its own; Claude drives it through the desktop
+app's local MCP server, so it works only with Claude running on the same computer as the app.
+
+| Skill | What it does | Простой запрос |
+|---|---|---|
+| `/openreel` | Connects OpenReel Video to Claude and edits the open project: cut, captions, text, audio, export | `/openreel обрежь видео до 30 секунд, добавь английские субтитры и экспортируй 1080x1920` |
