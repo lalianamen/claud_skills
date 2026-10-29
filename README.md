@@ -109,3 +109,15 @@ up on its own for any UI work in this repo.
 | Skill | What it does | Простой запрос |
 |---|---|---|
 | `/frontend-design` | Builds a page or UI with its own look, not a template: plans colors, fonts and layout for the subject first, checks the plan for generic AI defaults, then writes the code and reviews it (mobile, keyboard focus, accessibility, plain copy) | `/frontend-design лендинг для моей компании по ремонту кондиционеров и отопления в Лос-Анджелесе, с кнопкой "Вызвать мастера"` |
+
+## awesome-design (VoltAgent, Bergside, Rohit Ghumare; all MIT)
+Three collections in `awesome-design/` (sources, commits and what was left out:
+`awesome-design/README.md`): https://github.com/VoltAgent/awesome-design-md (84 brand
+DESIGN.md files), https://github.com/bergside/awesome-design-skills (67 style skills),
+https://github.com/rohitg00/awesome-claude-design (style families, remixes, prompts, recipes).
+Kept outside `.claude/skills/` so 150+ files don't load into every session; one skill
+reads them on demand.
+
+| Skill | What it does | Простой запрос |
+|---|---|---|
+| `/awesome-design` | Picks a brand or style from the three libraries and turns it into colors, fonts and layout rules for your page | `/awesome-design сделай лендинг моей HVAC-компании в стиле Stripe` |
