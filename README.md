@@ -99,3 +99,13 @@ app's local MCP server, so it works only with Claude running on the same compute
 | Skill | What it does | Простой запрос |
 |---|---|---|
 | `/openreel` | Connects OpenReel Video to Claude and edits the open project: cut, captions, text, audio, export | `/openreel обрежь видео до 30 секунд, добавь английские субтитры и экспортируй 1080x1920` |
+
+## frontend-design (Anthropic, v1.1.1, Apache-2.0)
+Copied from https://github.com/anthropics/claude-plugins-official/tree/main/plugins/frontend-design
+(commit f8c5e7a, license: `.claude/skills/frontend-design/LICENSE.txt`). The plugin holds one skill,
+identical to `skills/frontend-design` in https://github.com/anthropics/skills. Claude also picks it
+up on its own for any UI work in this repo.
+
+| Skill | What it does | Простой запрос |
+|---|---|---|
+| `/frontend-design` | Builds a page or UI with its own look, not a template: plans colors, fonts and layout for the subject first, checks the plan for generic AI defaults, then writes the code and reviews it (mobile, keyboard focus, accessibility, plain copy) | `/frontend-design лендинг для моей компании по ремонту кондиционеров и отопления в Лос-Анджелесе, с кнопкой "Вызвать мастера"` |
